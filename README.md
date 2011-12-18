@@ -12,6 +12,10 @@ Add to your ns:
 
     (:use [geolocation.api :as geo])
 
+Authenticate (one time only):
+
+    (geobytes! your@email.com your-password)
+
 Get your geolocation:
 
     (geo/find-me)
